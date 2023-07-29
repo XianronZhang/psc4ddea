@@ -1,41 +1,38 @@
-  # Useful Papers and Source Codes for Data-Driven Evolutionary Algorithms （DDEAs)
+# Useful Papers and Source Codes for Data-Driven Evolutionary Algorithms （DDEAs)
 
 This respository aims to maintain a list of useful relevant papers and open source codes for Data-Driven Evolutionary Algorithms (DDEAs).
 
 *Maintained by members in SCUT-Ailab: Yuanting Zhong, Haogan Huang, Xianrong Zhang, Yuhong Sun and Yuejiao Gong.*
 
+- [Useful Papers and Source Codes for Data-Driven Evolutionary Algorithms （DDEAs)](#useful-papers-and-source-codes-for-data-driven-evolutionary-algorithms-ddeas)
+  - [1. Survey Papers](#1-survey-papers)
+  - [2. Global Optimization](#2-global-optimization)
+  - [3. Multi-Objective Optimization](#3-multi-objective-optimization)
+  - [4. Large-Scale Optimization](#4-large-scale-optimization)
+  - [5. Dynamic Optimization](#5-dynamic-optimization)
+  - [6. Federated Data-Driven Optimization](#6-federated-data-driven-optimization)
+  - [7. Others \& Applications](#7-others--applications)
 
+## 1. Survey Papers
 
-## [Content](#content)
+**Data-Driven Evolutionary Optimization: Integrating Evolutionary Computation, Machine Learning and Data Science** 2021 [book](https://link.springer.com/10.1007/978-3-030-74640-7)
 
-<table>
-<tr><td><a href="#survey">1. Survey</a></td></tr>
-<tr><td><a href="#global">2. Global Optimization</a></td></tr>
-<tr><td><a href="#multi-objective">3. Multi-Objective Optimization</a></td></tr>
-<tr><td><a href="#large-scale">4. Large-Scale Optimization</a></td></tr>
-<tr><td><a href="#dynamic">5. Dynamic Optimization</a></td></tr>
-<tr><td><a href="#federated">6. Federated Data-Driven Optimization</a></td></tr>
-<tr><td><a href="#others">7. Others & Applications</a></td></tr>
-</table>
+*Yaochu Jin, Handing Wang, Chaoli Sun*
 
-### [1. Survey Papers](#content)
-   **Data-Driven Evolutionary Optimization: Integrating Evolutionary Computation, Machine Learning and Data Science** 2021 [book](https://link.springer.com/10.1007/978-3-030-74640-7)
+**Open Issues in Surrogate-Assisted Optimization** 2020 [book chapter](http://link.springer.com/10.1007/978-3-030-18764-4_10)
 
-   *Yaochu Jin, Handing Wang, Chaoli Sun*
+*Jörg Stork, Martina Friese, Martin Zaefferer, Thomas Bartz-Beielstein, Andreas Fischbach, Beate Breiderhoff, Boris Naujoks and Tea Tušar*
 
-   **Open Issues in Surrogate-Assisted Optimization** 2020 [book chapter](http://link.springer.com/10.1007/978-3-030-18764-4_10)
-
-   *Jörg Stork, Martina Friese, Martin Zaefferer, Thomas Bartz-Beielstein, Andreas Fischbach, Beate Breiderhoff, Boris Naujoks and Tea Tušar*
-
-   **Data-Driven Evolutionary Optimization: An Overview and Case Studies** 2019 [paper](https://ieeexplore.ieee.org/document/8456559/)
+**Data-Driven Evolutionary Optimization: An Overview and Case Studies** 2019 [paper](https://ieeexplore.ieee.org/document/8456559/)
    
-   *Yaochu Jin, Handing Wang, Tinkle Chugh, Dan Guo and Kaisa Miettinen*
+*Yaochu Jin, Handing Wang, Tinkle Chugh, Dan Guo and Kaisa Miettinen*
 
- **A survey on handling computationally expensive multiobjective optimization problems with evolutionary algorithms** 2019 [paper](https://link.springer.com/article/10.1007/s00500-017-2965-0)
-   
-   *Tinkle Chugh, Karthik Sindhya, Jussi Hakanen and Kaisa Miettinen*
+**A survey on handling computationally expensive multiobjective optimization problems with evolutionary algorithms** 2019 [paper](https://link.springer.com/article/10.1007/s00500-017-2965-0)
 
-### [2. Global Optimization](#content)
+*Tinkle Chugh, Karthik Sindhya, Jussi Hakanen and Kaisa Miettinen*
+
+## 2. Global Optimization
+
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
 |CL-DDEA [offline]|Contrastive Learning: An Alternative Surrogate for Offline Data-Driven Evolutionary Computation *2023* [paper](https://ieeexplore.ieee.org/document/9763851)|[YuejiaoGong/CL-DDEA](https://github.com/YuejiaoGong/CL-DDEA)|
@@ -58,7 +55,8 @@ This respository aims to maintain a list of useful relevant papers and open sour
 |CALSAPSO|Committee-based Active Learning for Surrogate-Assisted Particle Swarm Optimization of Expensive Problems *2017* [paper](https://ieeexplore.ieee.org/document/7955012)|[HandingWang/CALSAPSO](https://github.com/HandingWang/CALSAPSO)|
 |TLSAPSO|A two-layer surrogate-assisted particle swarm optimization algorithm *2015* [paper](https://link.springer.com/article/10.1007/s00500-014-1283-z)|[IIS-tyust/TLSAPSO](https://github.com/IIS-tyust/TLSAPSO)|
 
-### [3. Multi-Objective Optimization](#content)
+## 3. Multi-Objective Optimization
+
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
 |TS-SAEA|A Two-stage Surrogate-Assisted Evolutionary Algorithm (TS-SAEA) for Expensive Multi/Many-objective Optimization *2022* [paper](https://linkinghub.elsevier.com/retrieve/pii/S2210650222000773)|-|
@@ -81,8 +79,8 @@ This respository aims to maintain a list of useful relevant papers and open sour
 |NSGA2_GP [offline]|Small data driven evolutionary multi-objective optimization of fused magnesium furnaces *2016* [paper](http://ieeexplore.ieee.org/document/7850211/)|[guoxishu/small-data-driven](https://github.com/guoxishu/small-data-driven)|
 |K-RVEA|A surrogate-assisted reference vector guided evolutionary algorithm for computationally expensive many-objective optimization *2016* [paper](https://ieeexplore.ieee.org/document/7723883)|[tichugh/K-RVEA](https://github.com/tichugh/K-RVEA)|
 
+## 4. Large-Scale Optimization
 
-### [4. Large-Scale Optimization](#content)
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
 |TS-DDEO|Two-Stage Data-Driven Evolutionary Optimization for High-Dimensional Expensive Problems *2023* [paper](https://ieeexplore.ieee.org/document/9580489)|[zhenhuixiang/TS-DDEO code.zip](https://zhenhuixiang.github.io/code/TS-DDEO%20code.zip)|
@@ -92,8 +90,8 @@ This respository aims to maintain a list of useful relevant papers and open sour
 |CCJADE|Investigating surrogate-assisted cooperative coevolution for large-scale global optimization *2019* [paper](https://www.sciencedirect.com/science/article/abs/pii/S002002551930009X)|[lsgo-metaheuristics/saccde](https://github.com/lsgo-metaheuristics/saccde)|
 |SA-COSO|Surrogate-assisted cooperative swarm optimization of high-dimensional expensive problems *2017* [paper](https://ieeexplore.ieee.org/document/7865982)|[IIS-tyust/SA-COSO](https://github.com/IIS-tyust/SA-COSO)|
 
+## 5. Dynamic Optimization
 
-### [5. Dynamic Optimization](#content)
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
 |DSE-MFS|A Data Stream Ensemble Assisted Multifactorial Evolutionary Algorithm for Offline Data-driven Dynamic Optimization *2023* [paper](https://direct.mit.edu/evco/article-abstract/doi/10.1162/evco_a_00332/115655/A-Data-Stream-Ensemble-Assisted-Multifactorial?redirectedFrom=fulltext)|[Peacefulyang/DSE_MFS](https://github.com/Peacefulyang/DSE_MFS.git)|
@@ -103,24 +101,19 @@ This respository aims to maintain a list of useful relevant papers and open sour
 |1SGP, 1S_RBF, *etc*|Surrogate-Assisted Evolutionary Framework for Data-Driven Dynamic Optimization *2019* [paper](https://ieeexplore.ieee.org/document/8502789/)|-|
 |EGO|Tracking global optima in dynamic environments with efficient global optimization *2015* [paper](https://linkinghub.elsevier.com/retrieve/pii/S0377221714009515)|-|
 
-### [6. Federated Data-Driven Optimization](#content)
+## 6. Federated Data-Driven Optimization
+
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
 |FDD-EA-DH|A Secure Federated Data-Driven Evolutionary Multi-objective Optimization Algorithm *2022* [paper](http://arxiv.org/abs/2210.08295)|-|
 |FDD-EA|A federated data-driven evolutionary algorithm *2021* [paper](https://linkinghub.elsevier.com/retrieve/pii/S0950705121007942)|-|
 
+## 7. Others & Applications
 
-
-
-
-### [7. Others & Applications](#content)
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
 |DDEA-DLS|Automated Team Assembly in Mobile Games: A Data-Driven Evolutionary Approach using a Deep Learning Surrogate *2022* [paper](https://ieeexplore.ieee.org/document/9693290/)|-|
 |RF-CNS|A random forest assisted evolutionary algorithm using competitive neighborhood search for expensive constrained combinatorial optimization *2021* [paper](https://link.springer.com/article/10.1007/s12293-021-00326-9)|[HandingWangXDGroup/RF-CNS](https://github.com/HandingWangXDGroup/RF-CNS)|
 |MS-MTO|Multi-surrogate multi-tasking optimization of expensive problems *2020* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120304536)|[IIS-tyust/MS-MTO](https://github.com/IIS-tyust/MS-MTO)|
-
-
-
 
 *The annotation [offline] indicates the offline DDEAs that are purely data-driven without any new funtion evalutions during the optimization.*
