@@ -88,6 +88,7 @@ This respository aims to maintain a list of useful relevant papers and open sour
 |SAEA-PRG|A Surrogate-Assisted Evolutionary Feature Selection Algorithm With Parallel Random Grouping for High-Dimensional Classification *2022* [paper](https://ieeexplore.ieee.org/document/9706363)|[HandingWangXDGroup/SAEAPRG](https://github.com/HandingWangXDGroup/SAEAPRG)|
 |ESCO|An Ensemble Surrogate-Based Coevolutionary Algorithm for Solving Large-Scale Expensive Optimization Problems *2022* [paper](https://ieeexplore.ieee.org/document/9894365)|[Xunfeng-Wu/ESCO](https://github.com/Xunfeng-Wu/ESCO)|
 |SAMSO|A Surrogate-Assisted Multiswarm Optimization Algorithm for High-Dimensional Computationally Expensive Problems *2021* [paper](https://ieeexplore.ieee.org/document/8994184)|[fanli525/SAMSO](https://github.com/fanli525/SAMSO)|
+|ERDG|An Efficient Recursive Differential Grouping for Large-Scale Continuous Problems *2021* [paper](An Efficient Recursive Differential Grouping for Large-Scale Continuous Problems)|[ymzhongzhong/ERDG](https://github.com/ymzhongzhong/ERDG)|
 |CCJADE|Investigating surrogate-assisted cooperative coevolution for large-scale global optimization *2019* [paper](https://www.sciencedirect.com/science/article/abs/pii/S002002551930009X)|[lsgo-metaheuristics/saccde](https://github.com/lsgo-metaheuristics/saccde)|
 |SA-COSO|Surrogate-assisted cooperative swarm optimization of high-dimensional expensive problems *2017* [paper](https://ieeexplore.ieee.org/document/7865982)|[IIS-tyust/SA-COSO](https://github.com/IIS-tyust/SA-COSO)|
 
