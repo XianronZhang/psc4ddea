@@ -83,6 +83,7 @@ This respository aims to maintain a list of useful relevant papers and open sour
 
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
+|DDG|Dual Differential Grouping: A More General Decomposition Method for Large-Scale Optimization *2023* [paper](https://ieeexplore.ieee.org/document/9743365)|
 |TS-DDEO|Two-Stage Data-Driven Evolutionary Optimization for High-Dimensional Expensive Problems *2023* [paper](https://ieeexplore.ieee.org/document/9580489)|[zhenhuixiang/TS-DDEO code.zip](https://zhenhuixiang.github.io/code/TS-DDEO%20code.zip)|
 |SAEA-PRG|A Surrogate-Assisted Evolutionary Feature Selection Algorithm With Parallel Random Grouping for High-Dimensional Classification *2022* [paper](https://ieeexplore.ieee.org/document/9706363)|[HandingWangXDGroup/SAEAPRG](https://github.com/HandingWangXDGroup/SAEAPRG)|
 |ESCO|An Ensemble Surrogate-Based Coevolutionary Algorithm for Solving Large-Scale Expensive Optimization Problems *2022* [paper](https://ieeexplore.ieee.org/document/9894365)|[Xunfeng-Wu/ESCO](https://github.com/Xunfeng-Wu/ESCO)|
