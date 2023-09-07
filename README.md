@@ -59,6 +59,7 @@ This respository aims to maintain a list of useful relevant papers and open sour
 
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
+|GMOEA|Evolutionary Multiobjective Optimization Driven by Generative Adversarial Networks (GANs)*2022* [paper](https://doi.org/10.1109/TCYB.2020.2985081)|[EMI-Group/GMOEA](https://github.com/EMI-Group/GMOEA)|
 |TS-SAEA|A Two-stage Surrogate-Assisted Evolutionary Algorithm (TS-SAEA) for Expensive Multi/Many-objective Optimization *2022* [paper](https://linkinghub.elsevier.com/retrieve/pii/S2210650222000773)|-|
 |REMO|Expensive Multiobjective Optimization by Relation Learning and Prediction *2022* [paper](https://ieeexplore.ieee.org/document/9716917/)|[ilog-ecnu/REMO](https://github.com/ilog-ecnu/REMO)|
 |$\theta$-dea-dp|Expensive Multiobjective Evolutionary Optimization Assisted by Dominance Prediction *2022* [paper](https://ieeexplore.ieee.org/document/9490636)|[yyxhdy/tdeadp](https://github.com/yyxhdy/tdeadp)|
